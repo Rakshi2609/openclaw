@@ -1,6 +1,5 @@
 node_modules
 **/node_modules/
-.env
 docker-compose.extra.yml
 dist
 *.bun-build
@@ -60,14 +59,13 @@ apps/ios/*.dSYM.zip
 
 # provisioning profiles (local)
 apps/ios/*.mobileprovision
-.env
 
 # Local untracked files
 .local/
-.vscode/
 IDENTITY.md
 USER.md
 .tgz
 
 # local tooling
 .serena/
+config.bat
