@@ -1,6 +1,5 @@
 node_modules
 **/node_modules/
-.env
 docker-compose.override.yml
 docker-compose.extra.yml
 dist
@@ -135,3 +134,4 @@ ui/src/ui/__screenshots__
 ui/src/ui/views/__screenshots__
 ui/.vitest-attachments
 docs/superpowers
+config.bat
